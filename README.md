@@ -2,7 +2,6 @@
 * HAD(Human Action Detection)
 ## Table of Contents
 <ul>
-  <li></li>
   <li>Github에 저장된 소스코드와 데이터, 이미지 링크 </li>
   <li>미디어파이프를 사용하여 mp4 비디오로부터 관절정보 추출하기(Python)</li>
   <li>추출된 관절 정보(CSV) </li>
