@@ -1,7 +1,7 @@
 # HAD
 * HAD(Human Action Detection)
 ## Table of Contents
-<ul>
+<ol>
   <li>Github에 저장된 소스코드와 데이터, 이미지 링크 </li>
   <li>미디어파이프를 사용하여 mp4 비디오로부터 관절정보 추출하기(Python)</li>
   <li>추출된 관절 정보(CSV) </li>
@@ -15,4 +15,6 @@
   <li>모델 검증에 사용된 150개 비디오 압축파일 </li>
   <li>LSTM 모델 시계열 데이터 전처리(Window Sliding) 이미지 및 코드 </li>
   <li>Mediapipe 관절정보 추출 대상 주요 관절이름 </li>
-</ul>
+  <li>원본 비디오 학습용으로 사용된 비디오(mp4):걷기, 달리기, 반전된 비디오 2개(총 4개) </li>
+  <li>학습된 LSTM 모델 3개(Model 1, Model 2, Model 3)</li>
+</ol>
