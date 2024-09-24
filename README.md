@@ -8,6 +8,7 @@
   
   <li>Blender를 사용하여 mp4 비디오 생성시 크기 및 렌더링 속성 변환하기(Blender Output Properties) </li>
   <li>Blender를 사용하여 mp4 비디오 생성시 배경색상 지정하기(Blender World Properties) </li>
+  <li>Blender를 사용하여 fbx 애니메이션의 프레임수 조정하기(Blender Graph Editor) </li>
   <li>Blender에서 애니메이션의 키프레임에 접근하여 관절의 회전량 조작하기(Python) </li>
   <li>Blender 애니메이션을 mp4 비디오로 변환하기(Blender Output Properties) </li>
   <li>Blender를 이용한 mp4 비디오의 좌우반전(Flipping, Blender Video Editing) </li>
