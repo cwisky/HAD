@@ -5,10 +5,11 @@
   <li>Github에 저장된 소스코드와 데이터, 이미지 링크 </li>
   <li>미디어파이프를 사용하여 mp4 비디오로부터 관절정보 추출하기(Python)</li>
   <li>추출된 관절 정보(CSV) </li>
-  <li>Blender를 이용한 mp4 비디오의 좌우반전(Flipping, Blender) </li>
-  <li>Blender를 사용하여 mp4 비디오 크기 및 렌더링 속성 변환하기(Output Properties) </li>
+  <li>Blender를 이용한 mp4 비디오의 좌우반전(Flipping, Blender Video Editing) </li>
+  <li>Blender를 사용하여 mp4 비디오 크기 및 렌더링 속성 변환하기(Blender Output Properties) </li>
   <li>Blender에서 애니메이션의 키프레임에 접근하여 관절의 회전량 조작하기(Python) </li>
-  <li>Blender 애니메이션을 mp4 비디오로 변환하기(Video Editing, Blender) </li>
+  <li>Blender 애니메이션을 mp4 비디오로 변환하기(Blender Output Properties) </li>
+  <li>Blender mp4비디오의 해상도, 프레임수, 좌우반전(Blender Output Properties) </li>
   <li>Google colab에서 mp4 비디오 데이터 학습(Model 1, Python) </li>
   <li>Google colab에서 mp4 비디오 데이터 학습(Model 2, Model 3, Python) </li>
   <li>모델검증 측정지표(그래픽) </li>
