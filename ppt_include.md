@@ -11,7 +11,7 @@
   + model 3 : model2 데이터 + Blender에서 관절 각도에 변이를 적용한 2개의 비디오(걷기/달리기)
 
 ## 실험환경 구성
-* Blender4.1 다운로드 및 설치
+* Blender4.1 소개, 다운로드 및 설치
 * Blender4.1에 numpy, pandas 설치법
 * Google Colab & Google Drive
 
