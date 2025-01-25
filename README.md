@@ -1,9 +1,9 @@
 # HAD
 * HAD(Human Action Detection)
 ## Table of Contents(Files)
-* 학습용 실제 비디오(mp4) 6개
-* 테스트용 실제 비디오(mp4) 150개
-* Blender 애니메이션 비디오
+* 학습용 실제 비디오(mp4) 6개 : https://github.com/cwisky/HAD/blob/main/videos/real_videos(run)_for_train.zip, https://github.com/cwisky/HAD/blob/main/videos/real_videos(walk)_for_train.zip
+* 테스트용 실제 비디오(mp4) 150개 : https://github.com/cwisky/HAD/blob/main/videos/real_vids_for_test_01.zip, https://github.com/cwisky/HAD/blob/main/videos/real_vids_for_test_02.zip, https://github.com/cwisky/HAD/blob/main/videos/real_vids_for_test_03.zip
+* Blender 애니메이션 비디오(Conditional Sequence 모델 학습용) : https://github.com/cwisky/HAD/blob/main/videos/blender_rendered_videos(walk)_for_train.zip, https://github.com/cwisky/HAD/blob/main/videos/blender_rendered_videos(run)_for_train.zip
 * 소스 코드
   + Blender 애니메이션을 mp4 렌더링 : https://github.com/cwisky/HAD/blob/main/scripts/Blender_anim_render_mp4.py
   + Colab에서 Mediapipe를 사용하여 csv 추출 : https://github.com/cwisky/HAD/blob/main/scripts/Colab_Mediapipe_Works.ipynb
