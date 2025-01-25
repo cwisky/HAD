@@ -1,6 +1,24 @@
 # HAD
 * HAD(Human Action Detection)
 ## Table of Contents
+* 학습용 실제 비디오(mp4) 6개
+* 테스트용 실제 비디오(mp4) 150개
+* Blender 애니메이션 비디오 
+* 소스 코드
+  + Blender 애니메이션을 mp4 렌더링
+  + csv 추출
+  + Conditional Sequence 모델 생성 및 Landmark 생성
+  + LSTM 모델 학습 (실제 비디오 Landmark 학습 / 증강된 Landmark 학습)
+  + LSTM 모델을 사용하여 실제 비디오에서 행동 인식
+* Landmarks
+  + 실제 비디오에서 추출한 Landmarks
+  + Conditional Sequence 모델을 사용하여 생성한 Landmarks(데이터 증강)
+* Blender 에서 비디오 다루기(화면 캡쳐)
+* Tensorflow-Keras 모델
+  + Conditional Sequence Model(keras)
+  + 실제 비디오 데이터를 학습한 모델(keras)
+  + 실제 비디오+증강 데이터를 학습한 모델(keras)
+* Blender 에서 비디오 다루기(화면캡쳐 이미지)
 <ol>
   <li>Github에 저장된 소스코드와 데이터, 이미지 링크 </li>
   <li>미디어파이프를 사용하여 mp4 비디오로부터 관절정보 추출하기(Python)</li>
