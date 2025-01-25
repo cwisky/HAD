@@ -24,7 +24,6 @@
   <li>Blender를 사용하여 mp4 비디오 생성시 배경색상 지정하기(Blender World Properties) : https://github.com/cwisky/HAD/blob/main/images/fbx2mp4_01_01_background_color.png</li>
   <li>Blender를 사용하여 fbx 애니메이션의 프레임수 조정하기(Blender Graph Editor) : https://github.com/cwisky/HAD/blob/main/images/graph_edit_02.png</li>
   <li>Blender 애니메이션을 mp4 비디오로 변환하기(Blender Output Properties) : https://github.com/cwisky/HAD/blob/main/images/mp4_flip_01.png, https://github.com/cwisky/HAD/blob/main/images/mp4_flip_02.png, https://github.com/cwisky/HAD/blob/main/images/mp4_flip_03.png </li>
-  <li>Blender를 이용한 mp4 비디오의 좌우반전(Flipping, Blender Video Editing) </li>
   <li>Blender mp4비디오의 해상도, 프레임수, 좌우반전(Blender Output Properties) : https://github.com/cwisky/HAD/blob/main/images/mp4_resolution_fps_adjust.png</li>
   <li>mp4 비디오 파일로 렌더링 : https://github.com/cwisky/HAD/blob/main/images/fbx2mp4_02.png</li>
 </ol>
@@ -44,15 +43,3 @@
     + 실제 사용된 증강 데이터, 각도별 (0, -1, 15, -20, 35,  –50, 50, -60, 60, -75, -80, -85)
 11. Model 2를 사용하여 실제 비디오 150개 인식율 확인
 
-## 작업 순서에 따라 생성되거나 사용되는 산출물(파일)
-1. walk.fbx, run.fbx
-2. x
-3. x
-4. Blender_anim_render_mp4.py, *.mp4 (anim_walk_angle_n_.mp4,  anim_run_angle_n형식)
-5. *.csv (anim_walk__angle_n_.csv 형식) : blender_anim_render_mp4.py,  anim_csv.zip
-6. Anaconda_Conditional_Sequence.ipynb, *.keras ( conditional_run_LSTM_model.keras, conditional_walk_LSTM_model.keras )
-7. *.csv
-8. Colab_Meediapipe_work.ipynb, Model 1.keras, 학습용 실제 비디오(mp4) 6개,
-9. Colab_Mediapipe_work.ipynb, 테스트용 실제 비디오(mp4) 150개
-10.Colab_Mediapipe_work.ipynb, Model 2.keras, Blender_rendered_videos(walk).zip,  Blender_rendered_videos(run).zip
-11.Model 2.keras, 테스트용 비디오 150개
